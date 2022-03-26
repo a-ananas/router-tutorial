@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet} from "react-router-dom";
 
 export default function App() {
   return (
@@ -10,10 +10,11 @@ export default function App() {
             paddingBottom: "1rem",
         }}
       >
-      //Weird looking syntax here____________vvvvvv
+     {/*Weird looking syntax here____________vvvvvv*/}
         <Link to="/invoices">Invoices</Link> |{" "}
         <Link to="/expenses">Expenses</Link>
       </nav>
+      <Outlet />
     </div>
   );
 }

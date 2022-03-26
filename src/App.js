@@ -10,6 +10,7 @@ export default function App() {
             paddingBottom: "1rem",
         }}
       >
+      //Weird looking syntax here____________vvvvvv
         <Link to="/invoices">Invoices</Link> |{" "}
         <Link to="/expenses">Expenses</Link>
       </nav>

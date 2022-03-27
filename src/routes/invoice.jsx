@@ -6,7 +6,7 @@ export default function Invoice() {
   let invoice = getInvoice(parseInt(params.invoiceId, 10))
   return (
     <main style={{ padding: "1rem" }}>
-      <h2>Total due : {params.amount}</h2>;
+      <h2>Total due : {invoice.amount}</h2>
       <p>
         {invoice.name} : {invoice.number}
       </p>

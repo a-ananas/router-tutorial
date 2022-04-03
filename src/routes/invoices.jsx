@@ -1,4 +1,4 @@
-import { NavLink, Outlet, useSearchParams} from 'react-router-dom';
+import { NavLink, Outlet, useSearchParams, useLocation} from 'react-router-dom';
 import { getInvoices } from "../data";
 
 function QueryNavLink({to, ...props}) {
